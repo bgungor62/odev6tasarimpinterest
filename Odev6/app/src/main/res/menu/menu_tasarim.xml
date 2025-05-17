@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- burada itemlerın idsini nav dosyasındaki fragment id
+    leri ile aynı yaptım çünkü otomatik yönlendirme için-->
+    <item
+        android:id="@+id/anaSayfaFragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Ana Sayfa" />
+    <item
+        android:icon="@drawable/baseline_search_24"
+        android:title="Ayarlar" />
+    <item
+        android:icon="@drawable/baseline_add_24"
+        android:title="Ara" />
+    <item
+        android:icon="@drawable/baseline_message_24"
+        android:title="Gelen Kutusu" />
+    <item
+        android:icon="@drawable/baseline_supervised_user_circle_24"
+        android:title="Kaydedilenler" />
+</menu>
